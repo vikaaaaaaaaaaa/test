@@ -1,9 +1,17 @@
 package com.example.demo;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Helper {
+
+    public static long sumNumbers(String[] array){
+        String text = Arrays.toString(array);
+        String numbers =Helper.leftNumbers(text);
+        return Long.parseLong(numbers);
+    }
+
     static int stray(int[] numbers) {
         for (int i = 0; i < numbers.length; i++) {
             int count = 0;
