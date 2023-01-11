@@ -7,8 +7,8 @@ import java.util.Map;
 public class Helper {
 
     public static long sumNumbers(String[] array){
-        String text = Arrays.toString(array);
-        String numbers =Helper.leftNumbers(text);
+        String text1 = Arrays.toString(array);
+        String numbers =Helper.leftNumbers(text1);
         return Long.parseLong(numbers);
     }
 
